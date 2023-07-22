@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio website</title>
+
+    <!----------------- css --------------------->
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!---------------- font-awesome -------------> 
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!------------------ header --------------------->
+
+    <header class="header">
+      <a href="#" class="logo">Portfolio</a>
+
+      <i class="fa-solid fa-bars" id="menu-icon"></i>
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-------------------- home section --------------------->
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, It's me</h3>
+        <h1>Deepanshi Srivastava</h1>
+        <h3>And I'm a <span>Frontend developer</span></h3>
+        <p>
+         A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product.
+        </p>
+
+        <div class="social-media">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter-square"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-github"></i></a>
+        </div>
+        <a href="resume.pdf" class="btn">Download CV</a>
+      </div>
+      <div class="home-img">
+        <img src="img.png" alt="" />
+      </div>
+    </section>
+    <!---------------------- about section ----------------------------->
+    <section class="about" id="about">
+
+      <div class="about-img">
+        <img src="img2.png" alt="" />
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Frontend developer</h3>
+        <p>
+           Hii,<br />I'm DEEPANSHI SRIVASTAVA a software developer.I am a
+              second year student from Kanpur Institute of technology Computer
+              Science Department. I have been passionate about programming and
+              web designing.<br/>
+              I'm a Frontend Web Developer building the Front-end of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the Projects section.
+              Check out some of my work in Project section.I'm open to
+              Job opportunities where I can contribute,learn and grow.If u have
+              a good opportunity that matches my skill then please try to
+              contact me.
+        </p>
+        <!-- <a href="#" class="btn">Read More</a> -->
+      </div>
+    </section>
+
+    <!------------------------------------- services section --------------------------------------->
+
+    <section class="services" id="services">
+      <h2 class="heading">My<span> Skills</span></h2>
+
+      <div class="services-container">
+        <div class="services-box">
+          <i class="fa-brands fa-html5"></i>
+          <h3>HTML</h3>
+        </div>
+
+        <div class="services-box">
+          <i class="fa-brands fa-css3-alt"></i>
+          <h3>CSS</h3>
+        </div>
+
+        <div class="services-box">
+          <i class="fa-brands fa-js"></i>
+          <h3>javascript</h3>
+        </div>
+        <div class="services-box">
+          <i class="fa-brands fa-bootstrap"></i>
+          <h3>Bootstrap</h3>
+        </div>
+        <div class="services-box">
+          <i class="fas fa-code"></i>
+          <h3>C programming</h3>
+        </div>
+        <div class="services-box">
+          <i class="fas fa-code"></i>
+          <h3>C++ programming</h3>
+        </div>
+      </div>
+    </section>
+    <!---------------------------------- portfolio section -------------------------------------->
+
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest<span> Projects</span></h2>
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="coffee.png" height="280px" width="460px" />
+          <div class="portfolio-layer">
+            <h4>Coffee website</h4>
+            <a href="cofee.html"
+              ><i class="fa-solid fa-arrow-up-right-from-square"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="BookMyRide.png" height="280px" width="460px" />
+          <div class="portfolio-layer">
+            <h4>Book My Ride</h4>
+            <a href="#"
+              ><i class="fa-solid fa-arrow-up-right-from-square"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="MyOnlineMeal.png" height="280px" width="460px" />
+          <div class="portfolio-layer">
+            <h4>My online meal</h4>
+            <a href="myonline.html"
+              ><i class="fa-solid fa-arrow-up-right-from-square"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!------------------------------ contact section  ----------------------------------->
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Full name" />
+          <input type="email" placeholder="Email address" />
+        </div>
+
+        <div class="input-box">
+          <input type="number" placeholder="Mobile number" />
+          <input type="text" placeholder="Email subject" />
+        </div>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your message"
+        ></textarea>
+        <input type="submit" value="Send message" class="btn" />
+      </form>
+    </section>
+
+    <!----------------- footer design ------------------------------>
+
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2023 by Deepanshi | All rights reserved</p>
+      </div>
+      <div class="footer-iconTop">
+        <a href="#home"><i class="fa-solid fa-arrow-up"></i></a>
+      </div>
+    </footer>
+
+<!---------------------------- scroll reveal --------------------------->
+
+<script src="https://unpkg.com/scrollreveal"></script>
+
+    <!------------------- javascript --------------------->
+
+    <script src="script.js"></script>
+  </body>
+</html>
